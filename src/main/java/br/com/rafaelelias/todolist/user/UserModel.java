@@ -44,7 +44,7 @@ public class UserModel {
 
    
 
-
+    @Override public String toString() { return "UserModel{name='" + name + "', username='" + username + "', password='" + password + "'}"; }
 
 
 }
